@@ -1,0 +1,37 @@
+body {
+  background: #FFF8C4;
+  font-family: sans-serif;
+}
+.box {
+  border: 1px solid #1E163D;
+  position: absolute;
+  top: 3em;
+  left: 10px;
+}
+
+.legend {
+  color: #6B5EA6;
+  font-size: 1em;
+}
+.legend h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 2em;
+  margin-right: 0.75em;
+}
+.legend_scale {
+  color: #6B5EA6;
+  margin-right: 0.5em;
+  display: inline-block;
+}
+.legend_scale_horizontal {
+  border-top: 0.1em solid #6B5EA6;
+  margin-bottom: 0.37em;
+  display: inline-block;
+  width: 32px;
+}
+.legend_scale_vertical {
+  border-left: 0.1em solid #6B5EA6;
+  height: 0.75em;
+  display: inline-block;
+}
